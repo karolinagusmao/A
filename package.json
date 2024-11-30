@@ -1,0 +1,19 @@
+{
+  "name": "api-anti-fraude",
+  "version": "1.0.0",
+  "description": "API para verificar a probabilidade de uma transação ser fraudulenta",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "author": "Rafael Emery",
+  "license": "ISC",
+  "dependencies": {
+    "celebrate": "^12.1.2",
+    "documentation": "^13.0.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
